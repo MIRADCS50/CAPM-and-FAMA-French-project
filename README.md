@@ -28,9 +28,12 @@ This repository contains a robust, end-to-end Python framework for financial eco
 The baseline time-series regression model is specified as:
 $$R_{i,t} - R_{f,t} = \alpha_i + \beta_i (R_{m,t} - R_{f,t}) + \epsilon_{i,t}$$
 
-### 2. Fama-French 3-Factor Model (FF3)
+2. Fama-French 3-Factor Model (FF3)
+
 To control for size and value anomalies, the multi-factor extension is implemented:
-$$R_{i,t} - R_{f,t} = \alpha_i + \beta_{i,M}(R_{m,t} - R_{f,t}) + \beta_{i,SMB}\text{SMB}_t + \beta_{i,HML}\text{HML}_t + \epsilon_{i,t}$$
+
+$$R_{i,t} - R_{f,t} = \alpha_i + \beta_{i,M}(R_{m,t} - R_{f,t}) + \beta_{i,\text{SMB}}\text{SMB}_t + \beta_{i,\text{HML}}\text{HML}_t + \epsilon_{i,t}$$
+
 
 ---
 
