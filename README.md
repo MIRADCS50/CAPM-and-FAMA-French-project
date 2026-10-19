@@ -6,7 +6,7 @@ This repository contains a robust, end-to-end Python framework for financial eco
 
 ## 📁 Repository Structure & Files
 - **`CAPM and FAMA French.ipynb`:** The core Jupyter notebook containing data ingestion, cleaning, HAC OLS regressions, residual analysis, volatility drag calculations, and advanced visualizations.
-- **Visual Artifacts (`image.webp` through `image-(5).webp`):** Generated analytical plots including the Security Market Line (SML), annualized Jensen's Alpha bar charts with 95% HAC confidence intervals, and analytical documentation slides.
+- **Visual Artifacts :** Generated analytical plots including the Security Market Line (SML), annualized Jensen's Alpha bar charts with 95% HAC confidence intervals, and analytical documentation slides.
 
 ---
 
